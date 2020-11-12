@@ -5,8 +5,8 @@ runtime_config:
 env_variables:
     APP_LOG: errorlog
     GOOGLE_STORAGE_BUCKET: "api-project-266311.appspot.com"
-    MYSQL_USER: "<your username>"
-    MYSQL_PASSWORD: "<your password>"
+    MYSQL_USER: ""
+    MYSQL_PASSWORD: ""
     MYSQL_DSN: "mysql:dbname=testdb;unix_socket=/cloudsql/api-project-266311:europe-west3:esp-lp-mysql"
 beta_settings:
     cloud_sql_instances: "api-project-266311:europe-west3:esp-lp-mysql"
