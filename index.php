@@ -9,7 +9,7 @@ require __DIR__ . '/env.php';
 use Google\Cloud\Storage\StorageClient;
 
 $app = array();
-$app['bucket_name'] = "try-phpappeng.appspot.com";
+$app['bucket_name'] = "api-project-266311.appspot.com";
 $app['mysql_user'] = $mysql_user;
 $app['mysql_password'] = $mysql_password;
 $app['mysql_dbname'] = "testdb";
@@ -66,7 +66,7 @@ $dbport = null;
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname, 
-	$dbport, "/cloudsql/try-phpappeng:asia-southeast1:testsql");
+	$dbport, "/cloudsql/api-project-266311:europe-west3:esp-lp-mysql");
 
 // Check connection
 if ($conn->connect_error) {
